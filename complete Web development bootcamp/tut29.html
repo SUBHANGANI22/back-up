@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box shadow and Yext shadow</title>
+  </head>
+  <style>
+    .container {
+      display: flex;
+    }
+    .card {
+      margin: 23px 12px;
+      padding: 23px 12px;
+      /* border: 2px solid red; */
+      background-color: burlywood;
+
+      /* box-shadow: offset-x offset-y color; */
+      /* box-shadow: 10px 13px green; */
+      /* box-shadow: -10px -13px green; */
+
+      /* box-shadow: offset-x offset-y blur-radius color; */
+      /* box-shadow: 7px 10px 20px green; */
+
+      /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+      /* box-shadow: 7px 10px 20px 14px green; */
+      /* box-shadow: 7px 10px 20px 14px rgb(32, 230, 91); */
+
+      box-shadow: inset 3px 6px green, 3px 6px blue;
+    }
+    .card h2 {
+      /* text-shadow: 2px 2px white; */
+      /* text-shadow: 2px 2px 2px whitesmoke; */
+      text-shadow: -2px -2px 2px whitesmoke;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <div class="card" id="card1">
+        <h2>Card1</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          nesciunt in aut beatae fuga aliquid nam, dolor praesentium ipsum.
+          Itaque ex sit quaerat. Deleniti delectus error quisquam eos,
+          cupiditate voluptatum.
+        </p>
+      </div>
+      <div class="card" id="card2">
+        <h2>Card2</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          nesciunt in aut beatae fuga aliquid nam, dolor praesentium ipsum.
+          Itaque ex sit quaerat. Deleniti delectus error quisquam eos,
+          cupiditate voluptatum.
+        </p>
+      </div>
+      <div class="card" id="card3">
+        <h2>Card3</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis
+          nesciunt in aut beatae fuga aliquid nam, dolor praesentium ipsum.
+          Itaque ex sit quaerat. Deleniti delectus error quisquam eos,
+          cupiditate voluptatum.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
