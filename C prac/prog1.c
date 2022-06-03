@@ -5,7 +5,7 @@ int main()
     int a;
     printf("Enter a number\n");
     scanf("%d",&a);
-    printf("Table of%d\n",&a);
+    printf("Table of %d\n",a);
     printf("1 x %d=%d\n",a,1*a);
     printf("2 x %d=%d\n",a,2*a);
     printf("3 x %d=%d\n",a,3*a);
