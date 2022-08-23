@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        width: 175px;
+        height: 175px;
+        border: 2px solid black;
+      }
+      #box1 {
+        position: relative;
+        top: 70px;
+        z-index: 55;
+        background-color: green;
+      }
+      #box2 {
+        /* z-index:will only work on positions:relative,absolute,fixed or sticky; */
+
+        /* Will hide the element and space */
+        /* display: none;  */
+
+        /* Will hide the element */
+        /* visibility:hidden;  */
+        position: relative;
+        top: 14px;
+        z-index: 45;
+        background-color: red;
+      }
+      #box3 {
+        background-color: blue;
+      }
+      #box4 {
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>
+    <div class="box" id="box3"></div>
+    <div class="box" id="box4"></div>
+  </body>
+</html>

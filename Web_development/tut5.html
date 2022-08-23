@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h2>This is HTML form tutorial</h2>
+    <form action="backend.php">
+      <label for="name">Name: </label>
+      <div>
+        <input type="text" name="myname" id="name" />
+      </div>
+      <div>Role: <input type="text" name="myrole" /></div>
+      <div>Email: <input type="email" name="myemail" id="" /></div>
+      <div>
+        Gender: Male<input type="radio" name="mygender" id="" />Female<input
+          type="radio"
+          name="mygender"
+          id=""
+        />Other<input type="radio" name="mygender" id="" />
+      </div>
+      <div>
+        <label for="car">Car:</label>
+        <select name="mycar" id="car">
+          <option value="null">Enter your choice</option>
+          <option value="Tata">Tata</option>
+          <option value="Mah">Mahindra</option>
+        </select>
+      </div>
+      <div>
+        Do you Agree? <input type="checkbox" name="mycheckbox" id="" checked />
+      </div>
+      <div>
+        write about yourself:
+        <textarea name="mytext" id="" cols="40" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="submit now" />
+        <input type="reset" value="reset now" />
+      </div>
+    </form>
+  </body>
+</html>
