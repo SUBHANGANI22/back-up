@@ -1,1 +1,0 @@
-int employee::count=100;
